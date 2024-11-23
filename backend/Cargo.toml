@@ -1,5 +1,6 @@
 [package]
-name = "project_backend"
+name = "hello_world_backend"
+path = "src/lib.rs"
 version = "0.1.0"
 edition = "2021"
 
@@ -9,6 +10,5 @@ edition = "2021"
 crate-type = ["cdylib"]
 
 [dependencies]
-candid = "0.10"
-ic-cdk = "0.16"
-ic-cdk-timers = "0.10" # Feel free to remove this dependency if you don't need timers
+candid = "0.8.2"
+ic-cdk = "0.7.0"

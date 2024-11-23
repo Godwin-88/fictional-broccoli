@@ -1,5 +1,5 @@
 [workspace]
 members = [
-    "src/project_backend"
+    "backend"
 ]
 resolver = "2"
